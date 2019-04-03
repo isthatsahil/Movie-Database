@@ -1,0 +1,50 @@
+<!DOCTYPE >
+<html lang="eng">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+		<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+	<title>WatchWorld</title>
+</head>
+<body>
+	<header>
+		  <nav class="navbar navbar-expand-sm navbar-dark bg-dark ">
+				<div class="clearfix">
+          <img src="WatchWorld.jpg" alt="Loading" class="responsive d-inline" style="width:100px; height:100px">
+				<a class="navbar-brand display-2" href="project.html">WatchWorld</a>
+					</div
+		  </nav>
+
+
+	</header>
+
+
+   <div class="container">
+
+	 	<h1 class="display-2 pt-4   text-sm-center"style="padding-left:0;">Movie DataBase</h1>
+			<form class="form-inline float-sm-center" id="searchForm">
+			<div class="mx-auto">
+            <input class="form-control mr-2 " type="text" id="searchtext" placeholder="Search here">
+            <button class="btn btn-dark " type="submit" id="btn">Search</button></div>
+        </form>
+	  </div>
+
+
+
+	<div class="container mt-5">
+		<div class="row" id="movies">
+
+		</div>
+	</div>
+
+
+<script src="js/main.js"></script>
+</body>
+</html>
